@@ -1,0 +1,16 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#chocolateHeading {
+    color: #ff6347; /* Change text color to coral */
+}
+
+#chocolate {
+    width: 300px;
+    height: 400px;
+    background-image: url(Chocolate.jpg); /* Path to chocolate image */
+    background-size: cover;
+    cursor: pointer;
+}

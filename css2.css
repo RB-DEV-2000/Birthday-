@@ -1,0 +1,42 @@
+.landing-page {
+    text-align: center;
+    color: white; /* Set text color to white */
+}
+
+h1 {
+    font-size: 36px;
+    opacity: 0; /* Initially set opacity to 0 */
+    animation: fadeIn 1s ease forwards; /* Apply fade-in animation to h1 */
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Add transitions for smoother effects */
+}
+
+button:hover {
+    background-color: #ffa500; /* Darker color on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.5); /* Add a yellow outline when focused */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+        opacity: 1; /* Fade in to full opacity */
+    }
+}
