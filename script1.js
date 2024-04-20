@@ -37,6 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
         // After the song finishes, wait for 6 seconds before redirecting
         setTimeout(function() {
             window.location.href = 'bd3.html'; // Redirect to bd3.html
-        }, 9000); // 6000 milliseconds = 6 seconds
+        }, 6000); // 6000 milliseconds = 6 seconds
     });
 });
