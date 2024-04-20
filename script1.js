@@ -38,5 +38,5 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() {
             window.location.href = 'bd3.html'; // Redirect to bd3.html
         }, 6000); // 6000 milliseconds = 6 seconds
-  
-    }
+    });
+});
