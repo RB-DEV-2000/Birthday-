@@ -9,5 +9,5 @@ function eatChocolate() {
     // Close the browser after 3 seconds (3000 milliseconds)
     setTimeout(function() {
         window.close();
-    }, 3000);
+    }, 6000);
 }
