@@ -37,5 +37,5 @@ document.addEventListener('DOMContentLoaded', function() {
         // After the song finishes, wait for 6 seconds before redirectin
 function openChocolatePage() {
     // Redirect to the chocolate page when the button is clicked
-    window.location.href = 'bd3.html';
+    window.location.href = 'chocolate.html';
 }
