@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.poem {
+    font-family: 'Times New Roman', Times, serif; /* Change font family */
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    animation: fadeIn 4s ease-out; /* Add fade-in animation */
+}
+
+.line {
+    margin-bottom: 10px;
+    color: #ffcc00; /* Change color of each line */
+}
+
+.guy-message {
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 30px;
+    animation: slideInUp 4s ease-out; /* Add slide-in animation */
+    color: #ffcc00; /* Change color of the guy's message */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
