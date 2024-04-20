@@ -34,8 +34,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Listen for the 'ended' event on the audio element
     audio.addEventListener('ended', function() {
-        // After the song finishes, wait for 6 seconds before redirectin
-function openChocolatePage() {
-    // Redirect to the chocolate page when the button is clicked
-    window.location.href = 'chocolate.html';
-}
+        // After the song finishes, wait for 6 seconds before redirecting
+        setTimeout(function() {
+            window.location.href = 'bd3.html'; // Redirect to bd3.html
+        }, 6000); // 6000 milliseconds = 6 seconds
+    });
+});
+
+
+Change this to : make a button called chocolate and it will open the page by pressing Chocolate
